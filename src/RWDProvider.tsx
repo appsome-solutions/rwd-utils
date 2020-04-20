@@ -40,7 +40,7 @@ const getRWDData = (breakpoints: BreakpointsType): RWDContextData => {
 };
 
 export type RWDProviderProps = {
-  breakpoints: BreakpointsType,
+  breakpoints?: BreakpointsType,
 };
 
 export const RWDProvider: React.FunctionComponent<RWDProviderProps> = ({ children, breakpoints = BREAKPOINTS }) => {
