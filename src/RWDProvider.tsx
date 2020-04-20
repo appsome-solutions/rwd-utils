@@ -50,7 +50,7 @@ export const RWDProvider: React.FunctionComponent<RWDProviderProps> = ({ childre
     window.addEventListener('resize', () => setRWDData(getRWDData(breakpoints)), false);
 
     return window.removeEventListener('resize', () => setRWDData(getRWDData(breakpoints)), false);
-  }, []);
+  }, [breakpoints]);
 
   return <RWDContext.Provider value={RWDData}>{children}</RWDContext.Provider>;
 };
