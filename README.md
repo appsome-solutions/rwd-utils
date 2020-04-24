@@ -9,7 +9,7 @@ It means you can easily render a button on mobile but hide it on desktop or chan
 ## Usage
 ### RWDProvider
 
-First of all, we need to wrap our app with RWDProvider to inject context for our media and useRWD functionalitites.
+First of all, we need to wrap our app with RWDProvider to inject context for our media and useRWD functionalities.
 ```javascript
 <RWDProvider>
  ...whole app
@@ -48,7 +48,7 @@ declare module '@appsomesolutions/rwd-utils' {
 ### media.xyz\``
 
 Media is an object which keeps our breakpoints template literals functions to add predefined styles when given breakpoint occurs.
-Those breakpoints are mobile-first so styles you have added for mobile will be applied till their behavior will be overriden by biggest breakpoints.
+Those breakpoints are mobile-first so styles you have added for mobile will be applied till their behavior will be overridden by biggest breakpoints.
 In practice it looks like:
 
 ```typescript
@@ -79,7 +79,7 @@ Awesome, isn't it?! 🎉
 
 ### useRWD()
 
-useRWD() is a hook that gives us information if given breakpoint is fulfilled or not with `less` than or `more` than an object. Additionaly, we can directly read width value with it.
+useRWD() is a hook that gives us information if given breakpoint is fulfilled or not with `less` than or `more` than an object. Additionally, we can directly read width value with it.
 
 Like example below shows:
 
@@ -110,7 +110,7 @@ If you plan to do your site as a Static Page or render it on the server then you
 That is why if can, try to always use `media.breakpoint`` `   instead of useRWD or definitely say "I won't use SSR or Static Page now and in future".
 
 ## Life example
-[Code Sandox](https://codesandbox.io/s/appsome-solutionsrwd-utils-udb9m?file=/src/App.tsx)
+[Code Sandox](https://codesandbox.io/s/appsome-solutionsrwd-utils-twjm1?file=/src/App.tsx)
 
 ## Appsome Solutions
 All thanks for [Appsome Solutions](https://www.appsome-solutions.com/) - Software Development Company from Poland for sharing their code and knowledge with the community for free ❤
