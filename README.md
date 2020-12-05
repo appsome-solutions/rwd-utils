@@ -7,6 +7,21 @@ That is why we created these utils for conditional breakpoints style changes or 
 It means you can easily render a button on mobile but hide it on desktop or change its styling due to predefined breakpoints.
 
 ## Usage
+
+### Hot to install
+
+
+```
+npm i @appsomesolutions/rwd-utils
+```
+
+OR
+
+
+```
+yarn add @appsomesolutions/rwd-utils
+```
+
 ### RWDProvider
 
 First of all, we need to wrap our app with RWDProvider to inject context for our media and useRWD functionalities.
