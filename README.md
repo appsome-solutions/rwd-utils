@@ -8,7 +8,7 @@ It means you can easily render a button on mobile but hide it on desktop or chan
 
 ## Usage
 
-### Hot to install
+### How to install
 
 
 ```
