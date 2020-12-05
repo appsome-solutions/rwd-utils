@@ -26,6 +26,9 @@ yarn add @appsomesolutions/rwd-utils
 
 First of all, we need to wrap our app with RWDProvider to inject context for our media and useRWD functionalities.
 ```javascript
+import { RWDProvider } from '@appsomesolutions/rwd-utils';
+// ...
+
 <RWDProvider>
  ...whole app
 </RWDProvider>
