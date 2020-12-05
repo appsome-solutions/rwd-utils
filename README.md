@@ -71,6 +71,7 @@ In practice it looks like:
 
 ```typescript
 import styled from "styled-components";
+import { media } from '@appsomesolutions/rwd-utils';
 
 const MediaTestComponent = styled.h1`
   ${media.xs`
